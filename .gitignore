@@ -1,0 +1,33 @@
+# catkin
+robot/build/
+robot/devel/
+robot/logs/
+robot/install/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# temp copies
+**/shm_subscriber copy.hpp
+**/* copy.*
+
+# Keil / MCU build artifacts
+robot/MCU/**/Objects/
+robot/MCU/**/Listings/
+*.o
+*.crf
+*.d
+*.dep
+*.map
+*.lst
+*.uvguix.*
